@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-container {
+    position: relative;
+    width: 1664px;
+    height: 2218px;
+    padding-bottom: 56.25%;
+    /* Set the aspect ratio to 1664 / 2218 */
+}
+
+#my-video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.waitlist-button {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    padding: 30px 15px;
+    background-image: linear-gradient(to right, #FF3F3D, #FF884A);
+    color: white;
+    border: none;
+    border-radius: 200px;
+    font-size: 45px;
+    font-weight: light;
+    line-height: 3;
+    cursor: pointer;
+}
