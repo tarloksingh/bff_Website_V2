@@ -1,39 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: black;
-    min-height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 
 #video-container {
-    position: relative;
-    width: 1664px;
-    height: 2218px;
-    padding-bottom: 56.25%;
-    /* Set the aspect ratio to 1664 / 2218 */
+    width: 100%;
+    height: 100%;
 }
 
 #my-video {
+    padding-top: 20%;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
+#button-container {
+    padding-top: 20%;
+    padding-bottom: 40%;
+
+}
+
 .waitlist-button {
     position: absolute;
-    bottom: 20%;
+    padding-bottom: 20%;
     left: 50%;
-    width: 60%;
+    width: 50%;
     transform: translateX(-50%);
-    padding: 30px 15px;
+    padding: 15px;
     background-image: linear-gradient(to right, #FF3F3D, #FF884A);
     color: white;
     border: none;
