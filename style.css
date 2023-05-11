@@ -30,12 +30,12 @@ body {
     left: 50%;
     width: 40%;
     transform: translateX(-50%);
-    padding: 15px;
+    padding: 5px;
     background-image: linear-gradient(to right, #FF3F3D, #FF884A);
     color: white;
     border: none;
     border-radius: 200px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: lighter;
     line-height: 3;
     cursor: pointer;
