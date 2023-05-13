@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    display: grid;
+    background-color: rgb(255, 255, 255);
+    display: inline-flexbox;
     justify-content: center;
     align-items: center;
 }
@@ -11,7 +11,6 @@ body {
 }
 
 #my-video {
-    padding-top: 5%;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,14 +18,13 @@ body {
 }
 
 #button-container {
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
 
 }
 
 .waitlist-button {
     position: absolute;
-    padding-bottom: 20%;
+    padding-bottom: 0%;
     left: 50%;
     width: 40%;
     transform: translateX(-50%);
@@ -39,4 +37,5 @@ body {
     font-weight: lighter;
     line-height: 3;
     cursor: pointer;
+    box-shadow: 0 8px 23px rgba(0, 0, 0, 0.50);
 }
