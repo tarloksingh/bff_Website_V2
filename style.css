@@ -121,16 +121,27 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    margin-bottom: 10%;
 }
 
-#ThirdDemo h1 {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 10%;
-    font-size: 48px;
+#ThirdPoint-container h2 {
+    font-size: 5rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #1f1f1f;
-    margin-top: 15%;
+    color: #323232;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+#ThirdPoint-container p {
+    margin-top: 10%;
+    font-size: 3rem;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #323232;
+    padding-left: 5%;
+    padding-right: 10%;
 }
