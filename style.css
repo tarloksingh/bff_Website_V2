@@ -44,7 +44,7 @@ body {
 
 }
 
-#FirstPoint h1 {
+#FirstPoint-container h1 {
     font-size: 5rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 600;
@@ -56,7 +56,7 @@ body {
 
 }
 
-#FirstPoint p {
+#FirstPoint-container p {
     margin-top: 10%;
     font-size: 3rem;
     font-family: neue-haas-unica, sans-serif;
@@ -68,17 +68,6 @@ body {
 
 }
 
-#h2 {
-    font-size: 12px;
-    font-family: neue-haas-unica, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: #323232;
-    padding-left: 5%;
-    padding-right: 10%;
-    margin-top: 15%;
-
-}
 
 
 #button-container2 {
@@ -104,10 +93,10 @@ body {
 
 }
 
-#SecondDemo {
+#SecondPoint-container {
     background-color: #0f0f0f;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -116,7 +105,7 @@ body {
 
 }
 
-#SecondDemo h1 {
+#SecondPoint-container h2 {
     padding-top: 10%;
     padding-left: 15%;
     padding-right: 15%;
