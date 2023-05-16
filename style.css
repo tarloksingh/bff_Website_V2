@@ -58,7 +58,7 @@ body {
 
 #h2 {
     font-size: 24px;
-    font-family: "neue-haas-unica", sans-serif;
+    font-family: neue-haas-unica, sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #323232;
@@ -66,6 +66,12 @@ body {
     padding-right: 10%;
     margin-top: 15%;
 
+}
+
+#h2 h2 {
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 #button-container2 {
