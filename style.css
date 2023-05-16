@@ -26,16 +26,29 @@ body {
     position: absolute;
     padding-bottom: 0%;
     left: 50%;
-    width: 40%;
+    width: 45%;
     transform: translateX(-50%);
     padding: 5px;
     background-image: linear-gradient(to right, #FF3F3D, #FF884A);
     color: white;
     border: none;
-    border-radius: 200px;
+    border-radius: 30px;
     font-size: 40px;
     font-weight: lighter;
     line-height: 3;
     cursor: pointer;
-    box-shadow: 0 8px 23px rgba(0, 0, 0, 0.25);
+
+}
+
+#h1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #323232;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin-top: 20%;
+
 }
