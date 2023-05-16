@@ -196,6 +196,30 @@ body {
     color: rgb(0, 177, 0);
 }
 
+#button-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.waitlist-button3 {
+
+    width: 45%;
+    padding: 5px;
+    background-image: linear-gradient(to right, #FF3F3D, #FF884A);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 38px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3.5;
+    cursor: pointer;
+
+}
+
 .navbar {
     display: flex;
     justify-content: center;
