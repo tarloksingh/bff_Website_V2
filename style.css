@@ -62,6 +62,30 @@ h2 {
     color: #323232;
     padding-left: 5%;
     padding-right: 10%;
-    margin-top: 10%;
+    margin-top: 15%;
+
+}
+
+#button-container2 {
+    padding-top: 10%;
+
+}
+
+.waitlist-button2 {
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-image: linear-gradient(to right, #FF3F3D, #FF884A);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 38px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3.5;
+    cursor: pointer;
 
 }
