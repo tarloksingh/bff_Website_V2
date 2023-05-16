@@ -145,3 +145,12 @@ body {
     padding-left: 5%;
     padding-right: 10%;
 }
+
+.features {
+    border-collapse: collapse;
+}
+
+.features__cell {
+    max-width: 250px;
+    font-size: 2em;
+}
