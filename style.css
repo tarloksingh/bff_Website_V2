@@ -146,11 +146,48 @@ body {
     padding-right: 10%;
 }
 
+
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
 .features {
     border-collapse: collapse;
+    font-family: neue-haas-unica, sans-serif;
+    font-size: 2em;
 }
 
 .features__cell {
-    max-width: 250px;
-    font-size: 2em;
+    max-width: 100%;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    color: #333333;
+    border: 1px solid #dddddd;
+    line-height: 1.4;
+}
+
+.features__cell--bold {
+    font-weight: bold;
+}
+
+.features__cell--shaded {
+    background: #eeeeee;
+}
+
+.features__cell--large {
+    font-size: 1.25em;
+}
+
+.features__cell--center {
+    text-align: center;
+}
+
+.features__tick::after {
+    content: "\2714";
+    font-size: 1.5em;
+    color: rgb(0, 177, 0);
 }
