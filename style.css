@@ -45,7 +45,7 @@ body {
 }
 
 #FirstPoint-container h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -58,7 +58,7 @@ body {
 
 #FirstPoint-container p {
     margin-top: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -125,7 +125,7 @@ body {
 }
 
 #ThirdPoint-container h2 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -137,7 +137,7 @@ body {
 
 #ThirdPoint-container p {
     margin-top: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
