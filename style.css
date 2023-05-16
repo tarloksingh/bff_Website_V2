@@ -33,9 +33,11 @@ body {
     color: white;
     border: none;
     border-radius: 30px;
-    font-size: 40px;
-    font-weight: lighter;
-    line-height: 3;
+    font-size: 38px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3.5;
     cursor: pointer;
 
 }
@@ -44,7 +46,7 @@ body {
     position: absolute;
     font-size: 40px;
     font-family: neue-haas-unica, sans-serif;
-    font-weight: 600;
+    font-weight: 200;
     font-style: normal;
     color: #323232;
     padding-left: 5%;
