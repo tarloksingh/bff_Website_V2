@@ -19,7 +19,7 @@ body {
     height: 100%;
 }
 .image-button img {
-    width: 20vb; /* Set the width to your desired size */
+    width: 18vb; /* Set the width to your desired size */
     height: auto; /* This maintains the aspect ratio */
   }
   
@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
@@ -46,7 +47,7 @@ body {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-right: 10%;
     margin-left: 10%;
     color: #000000;
