@@ -82,7 +82,7 @@ body {
 .faq__questions h2 {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ body {
 .faq__questions p {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 23px;
     font-style: normal;
     justify-content: center;
     align-items: center;
