@@ -57,16 +57,47 @@ body {
 
 
 /* FAQ.html below this  */
-
-
 .faq {
+    padding-top: 5%;
+}
+
+.faq h1 {
     font-family: neue-haas-unica, sans-serif;
-    font-weight: 300;
+    font-weight: 800;
     font-style: normal;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+
+  }
+
+.faq__questions{
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 10%;
+}
+
+
+.faq__questions h2 {
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.faq__questions p {
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 200;
+    font-size: .8rem;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
 
 
 }
