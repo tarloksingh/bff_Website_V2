@@ -58,12 +58,13 @@ body {
 
 /* FAQ.html below this  */
 .faq {
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .faq h1 {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 800;
+    font-size: 3rem;
     font-style: normal;
     justify-content: center;
     align-items: center;
@@ -80,7 +81,7 @@ body {
 
 .faq__questions h2 {
     font-family: neue-haas-unica, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     font-style: normal;
     justify-content: center;
@@ -92,7 +93,7 @@ body {
 
 .faq__questions p {
     font-family: neue-haas-unica, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.8rem;
     font-style: normal;
     justify-content: center;
