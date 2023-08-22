@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgb(255, 255, 255);
     display: inline-flexbox;
@@ -41,6 +43,7 @@ body {
     padding-top: 2%;
     padding-bottom: 5%;
     padding-inline: 15%;
+    
 }
 
 .navbar a {
@@ -52,6 +55,7 @@ body {
     margin-left: 10%;
     color: #000000;
     text-decoration: none;
+
 }
 
 
@@ -103,6 +107,23 @@ body {
 
 
 }
+
+
+/* Media query for screens with a maximum width of 481px */
+@media (max-width: 481px) {
+    #video-container {
+        width: 100%; /* Width for smaller screens */
+    }
+}
+
+/* Media query for screens with a minimum width of 482px */
+@media (min-width: 482px) {
+    #video-container {
+        width: 50%; /* Width for larger screens */
+    }
+}
+
+
 
 
 
