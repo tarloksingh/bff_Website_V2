@@ -1,5 +1,4 @@
 
-
 body {
     background-color: rgb(255, 255, 255);
     display: inline-flexbox;
@@ -109,19 +108,6 @@ body {
 }
 
 
-/* Media query for screens with a maximum width of 481px */
-@media (max-width: 481px) {
-    #video-container {
-        width: 100%; /* Width for smaller screens */
-    }
-}
-
-/* Media query for screens with a minimum width of 482px */
-@media (min-width: 482px) {
-    #video-container {
-        width: 50%; /* Width for larger screens */
-    }
-}
 
 
 
